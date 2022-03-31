@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: rice-front
-          image: roajsa19/rice:tagname
+          image: roajsa19/rice:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 3000
